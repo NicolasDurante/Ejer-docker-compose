@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ejer-docker-compose:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - .:/usr/share/nginx/html
+    container_name: ejer-docker-compose
+
